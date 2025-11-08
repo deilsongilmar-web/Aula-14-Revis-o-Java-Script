@@ -1,2 +1,2 @@
-# Aula-14-Revisão-de-java-Script-Tipagem
+# Aula 14 Revisão Java Script Tipagem
 Revisão de java Script , Tipagem
