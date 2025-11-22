@@ -1,0 +1,104 @@
+/* Variáveis para cores */
+:root {
+    --primary-color: #2a9d8f;
+    --secondary-color: #264653;
+    --text-color: #f4f1e5;
+    --bg-color: #e9c46a;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: var(--text-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.number-button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: 0 4px #1c3641;
+}
+
+.number-button:hover:not(.disabled) {
+    background-color: #3b6170;
+}
+
+.number-button:active:not(.disabled) {
+    transform: translateY(2px);
+    box-shadow: 0 2px #1c3641;
+}
+
+/* Classes manipuladas pelo JS */
+.correct {
+    background-color: var(--success-color);
+    box-shadow: 0 4px #1e7e34;
+}
+
+.incorrect {
+    background-color: var(--error-color);
+    box-shadow: 0 4px #bd2130;
+    opacity: 0.6;
+}
+
+.disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+#message {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    min-height: 1.2em; /* Para evitar saltos de layout */
+}
+
+.reset-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #1e7e34;
+}
