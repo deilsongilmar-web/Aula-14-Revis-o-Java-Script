@@ -1,7 +1,7 @@
 
 # 🔢 Jogo: Adivinhe o Número Secreto (1 a 10)
 
-![Image](https://github.com/user-attachments/assets/2b2c3f8c-cdbd-4468-9538-8e043e493aac)
+![Image](https://github.com/user-attachments/assets/2b2c3f8c-cdbd-4468-9538-8e043e493aac) ![Image](https://github.com/user-attachments/assets/5cad0244-5799-473a-abc8-1fcc5d42b3f5)
 Este é um projeto simples e clássico de um jogo de adivinhação. O jogador deve tentar acertar um número secreto gerado aleatoriamente entre 1 e 10. O foco principal é demonstrar a lógica do jogo utilizando **JavaScript** para a interatividade.
 
 ## 🎯 Funcionalidades
