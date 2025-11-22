@@ -1,11 +1,11 @@
 /* Variáveis para cores */
 :root {
-    --primary-color: #2a9d8f;
-    --secondary-color: #264653;
-    --text-color: #f4f1e5;
-    --bg-color: #e9c46a;
-    --success-color: #28a745;
-    --error-color: #dc3545;
+    --primary-color: #0d7569;
+    --secondary-color: #14bafc;
+    --text-color: #201c0c;
+    --bg-color: #e4a507;
+    --success-color: #0be93f;
+    --error-color: #ec1b30;
 }
 
 body {
